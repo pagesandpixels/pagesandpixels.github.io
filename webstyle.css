@@ -1,0 +1,323 @@
+h1 {
+	font-family: 'Optima', serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Didot', serif;
+	padding: 20px;
+}
+
+h3 {
+	font-family: 'Didot', serif;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav {
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	padding: 0;
+}
+
+.nav-links li {
+	margin: 0 15px;
+}
+
+.nav-links a {
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Didot', serif;
+	transition: color 0.3s ease; 
+}
+
+.nav-links a:hover {
+	color: #00bcd4;
+}
+
+.home h1 {
+	font-family: "Didot", serif
+}
+
+.home p {
+	font-family: 'Didot', serif;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* Blog Articles (grids) */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px; 
+	padding-left: 220px;
+	padding-right: 220px;
+	margin-top: 20px;
+}
+
+.grid-item {
+	text-align: center;
+	position: relative;
+	height: 90%;
+}
+
+.grid-item img {
+	object-fit: crop;
+	width: 100%; 
+	border-radius: 2px;
+}
+
+.image-title {
+	position: absolute; 
+	bottom: 0; 
+	left: 0px;  
+	right: 0px; 
+	padding: 0px; 
+	color: #ffffff; 
+	font-family:'Baskerville', serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-shadow: #FC0 1px 0 10px;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.grid-item:hover img {
+	opacity: 0.8; 
+}
+/* grid page ends*/
+
+/*home page grid (front - words and picture)*/
+.grid-container-front {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.left {
+	grid-column: 1;
+	width: auto;
+}
+
+.right {
+	grid-column: 2;
+	width: auto;
+	margin-top: 50px;
+
+}
+
+/*article grids*/
+.grid-container-article {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 40px;
+	margin-left: 13%;
+	font-family: 'Didot', serif;
+	line-height: 1.75;
+}
+
+.left {
+	grid-column: 1;
+	width: 700px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.right {
+	grid-column: 2;
+	width: 200px;
+	font-size: 14px;
+}
+.right ul {
+	list-style: none;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: ##FEFBEA;
+	color: #403F3B;
+	text-align: center;
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+/*top left logo*/
+
+.logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	margin-left: 10px;
+	
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #000;
+}
+
+article {
+	flex: 1;
+}
+
+article img {
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+form {
+	display: block;
+	align-items: center;
+}
+
+form input[type="email"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form button {
+	padding: 8px 15px;
+	margin-left: 35px;
+	margin-top: 10px;
+	background-color: ##FEFBEA;
+	color: #403F3B;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #00bcd4;
+}
+
+.back-to-top {
+	display: block;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	text-decoration: none;
+	font-size: 14px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+
+.back-to-top:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.about img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+.about p {
+	font-size: 20px;
+	font-family: 'Didot', serif;
+	padding: 20px;
+	margin-left: 320px;
+	margin-right: 320px;
+	text-align: center;
+}
+.grid-container-footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	line-height: 1.75;
+	color: #000;
+}
+
+.footer-logo {
+	grid-column: 1;
+	font-size: 18px;
+	margin-left: 30px;
+	font-family: 'Monaco', monospace;
+	font-size: 12px;
+
+}
+
+.footer-nav {
+	grid-column: 2;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: 'Didot', serif;
+}
+
+.footer-follow {
+	grid-column: 3;
+	font-size: 18px;
+	font-family: 'Didot', serif;
+}
+.footer-contact {
+	grid-column: 4;
+	font-size: 18px;
+	font-family: 'Didot', serif;
+}
+
+.fourofour body {
+	text-align: center;
+	justify-content: center;
+}
+
+.fourofour h2 {
+	font-family: 'Monaco', monospace;
+	text-align: center;
+}
+
+.fourofour p {
+	font-family: 'Courier New', monospace;
+	text-align: center;
+}
+
+.fourofour ul {
+	font-family: 'Courier New', monospace;
+	text-align: center;
+	text-indent: 20px;
+}
+
+.fourofour button {
+	font-family: 'Monaco', monospace;
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.fourofour img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
