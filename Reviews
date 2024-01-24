@@ -1,1 +1,137 @@
-DocHTML
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="webstyle.css">
+	<title>Pages and Pixels</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+	<article>
+		<p>
+			<a href="index.html">
+				<img src="top.png">
+			</a>
+		</p>
+	</article>
+</header>
+<nav>
+	<ul class="nav-links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="one.html">Blog</a></li>
+    <li><a href="Reviews">Reviews</a></li>
+		<li><a href="two.html">Latest</a></li>
+		<li><a href="eleven.html">About</a></li>
+	</ul>
+</nav>
+
+<hr>
+
+<body>
+
+	<div class="grid-container">
+		<div class="grid-item">
+			<a href="two.html">
+				<img src="blue.jpeg" alt="blueberry breakfast">
+				<span class="image-title">Giving yourself the time and nutrients</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="three.html">
+				<img src="study.jpeg" alt="books and notes laid out">
+				<span class="image-title">Balancing School and Life: Strategies for a Balanced Life</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="four.html">
+				<img src="lens.jpeg" alt="phone held up to take a picture of the beach and couple.">
+				<span class="image-title">Living Life Through a Lens...</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="five.html">
+				<img src="books.jpeg" alt="stack of books with a glass on top">
+				<span class="image-title">The Joy of Reading</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="six.html">
+				<img src="tuber.jpeg" alt="collage of images, with laptops, notes, and pages.">
+				<span class="image-title">Mastering Organization</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="seven.html">
+				<img src="cocoa.jpeg" alt="hot cocoa in a mug with heart shaped marshmallows">
+				<span class="image-title">Cozy Season Approaches; How to make the most of the seasons to come</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="eight.html">
+				<img src="photo.jpeg" alt="Camera held up to the sunset">
+				<span class="image-title">My Love of Photography</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="nine.html">
+				<img src="hb.png" alt="birthday cake">
+				<span class="image-title">Birthday Celebrations Galore</span>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a href="ten.html">
+				<img src="picnic.jpeg" alt="summer picnic on the beach, girl sitting with art supplies and food">
+				<span class="image-title">Shadow and Bone</span>
+			</a>
+		</div>
+	</div>
+
+	<article>
+		<h3> This seems to be the end of the recent articles.<br> 
+			Come back again for more.<br></h3>
+		</article>
+	</body>
+	<hr>
+	<footer>
+		<div class="grid-container-footer">
+			<div class="footer-logo"> 
+				<a href="index.html">
+					<img src="pages.png" 
+					width="150" 
+					height="auto"> 
+				</a>
+				<p>Capturing every moment, <br> one pixel at a time</p>
+			</div>
+
+			<div class="footer-nav">
+
+				<a href="index.html">
+					<p> Home </p>
+				</a>
+				<a href="one.html">
+					<p> Blog</p>
+				</a>
+				<a href="three.html">
+					<p> About </p>
+				</a>
+
+			</div>
+
+			<div class="footer-follow">
+				<p> FOLLOW </p>
+				<p> @<i>_pagesandpixels</i> </p>
+				</div>
+
+				<div class="footer-contact">
+					<p> CONTACT </p>
+					<p> pagesxpixels@gmail.com
+					</div>
+
+				</div>
+
+
+			</footer>
+
+			<a href="#" class="back-to-top">Back to Top</a>
+			</html>
+
