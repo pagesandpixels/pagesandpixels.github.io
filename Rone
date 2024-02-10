@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="webstyle.css">
+  <title>My Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="logo"> 
+  <a href="index.html">
+  <img src="pages.png" 
+  width="150" 
+  height="auto"> 
+</a>
+</div> 
+
+<nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="one.html">Blog</a></li>
+    <li><a href="Reviews.html">Reviews</a></li>
+    <li><a href="two.html">Latest</a></li>
+    <li><a href="eleven.html">About</a></li>
+  </ul>
+</nav>
+
+<body>
+  <div class="grid-container-article">
+
+    <div class="left">
+      <header>
+        <h1>Shadow and Bone: Is it the End? <br> Reviewing the Second Season and the Shocking Cancellation</h1>
+      </header>
+      <article>
+        <img src="milkshakesqv.jpeg" alt="girl walking on a hill of flowers in tuscany.">
+        <p>
+          The arrival of summer brings with it an air of excitement and a sense of endless possibilities. It's a time when the sun shines a little brighter, and our spirits are lifted by the warmth of the season. As we step into these sunny months, let's explore some captivating activities that will help us make the most of this splendid time.
+        </p>
+        <h2>Connect with Nature and Yourself</h2>
+        <p>
+          There's no better time to reconnect with the earth and find solace in its beauty. Take a leisurely hike through a lush forest, and let the melodies of chirping birds and rustling leaves soothe your soul. Find a quiet spot by the lake, watch the shimmering water, and allow your thoughts to flow freely like the gentle ripples.
+        </p>
+        <blockquote>
+          <p>"Sitting by the lake, I felt a deep sense of peace wash over me. The worries of everyday life seemed to melt away, replaced by a profound connection with nature."</p>
+          <footer>- Jane Doe</footer>
+        </blockquote>
+        <h2>Unleash Your Adventurous Spirit</h2>
+        <p>
+          Summer is the season of adventure, beckoning you to explore new horizons. Try your hand at kayaking, feel the thrill of zip-lining through the treetops, or embark on a road trip to discover charming towns and hidden gems. Embrace the unknown, and let curiosity guide your journey.
+        </p>
+        <h2>Celebrate with Loved Ones</h2>
+        <p>
+          Summer brings people together like no other season. Host a lively barbecue in your backyard, complete with laughter, delicious food, and stories that weave memories into the fabric of time. Picnics in the park, impromptu beach days, and stargazing nights with friends create bonds that warm the heart long after summer fades.
+        </p>
+        <blockquote>
+          <p>"Sitting around the bonfire, we shared tales from our past summer adventures. The crackling flames mirrored the warmth we felt in each other's company."</p>
+          <footer>- John Smith</footer>
+        </blockquote>
+        <h2>Embrace Playfulness</h2>
+        <p>
+          Recall the carefree days of your childhood and infuse your summer with playfulness. Fly a kite, build sandcastles, or challenge friends to a friendly game of beach volleyball. Engaging in these lighthearted activities not only brings joy but also reminds us to cherish the simple pleasures of life.
+        </p>
+        <h2>Cultivate Gratitude</h2>
+        <p>
+          Amid the sun-kissed days and starlit nights, take a moment to reflect on the beauty that surrounds you. Express gratitude for the vibrant blooms, the cool breeze, and the laughter shared with loved ones. Cultivating gratitude allows us to embrace the present and find contentment in life's small wonders.
+        </p>
+        <blockquote>
+          <p>"As the sun dipped below the horizon, I marveled at the kaleidoscope of colors painting the sky. In that fleeting moment, I felt an overwhelming sense of gratitude for the gift of experiencing such breathtaking beauty."</p>
+          <footer>- Emily Clark</footer>
+        </blockquote>
+        <p>So, let this summer be a canvas upon which you paint unforgettable memories. Bask in the sunlight, dance in the rain, and savor every moment. Embrace the spirit of adventure, forge connections, and rediscover the magic of life. As the sun sets on each summer day, remember that the joy you create will continue to shine within your heart.</p>
+        <p>Warmly, Natalie and Mina</p>
+      </article>
+    </div>
+
+    <div class="right">
+    <div>
+      <h2>Recent Articles</h2>
+      <ul>
+        <li><a href="ten.html">Summer 101</a></li>
+        <li><a href="nine.html">Birthday's Galore</a></li>
+        <li><a href="eight.html">My Love of Photography</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>About Autho:</h2>
+      <img src="outfit.jpeg" alt="Author Picture"
+            width="160"
+            height="auto">
+      <p>Hi there! This blog by Natalie and Mina is all about living life and capturing moments through words and pictures.</p>
+      <p> Memories are a beautiful part of life and sharing those memories makes life more joyous.</p>
+      <p> That's how Pages and Pixels was established</p>
+    </div>
+    <div>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get the latest updates and articles delivered straight to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    </div>
+
+  </div>
+</body>
+
+<hr>
+<footer>
+  <div class="grid-container-footer">
+    <div class="footer-logo"> 
+      <a href="index.html">
+        <img src="pages.png" 
+        width="150" 
+        height="auto"> 
+      </a>
+      <p>Capturing every moment, <br> one pixel at a time</p>
+    </div>
+
+    <div class="footer-nav">
+
+      <a href="index.html">
+        <p> Home </p>
+      </a>
+      <a href="one.html">
+        <p> Blog</p>
+      </a>
+      <a href="three.html">
+        <p> About </p>
+      </a>
+
+    </div>
+
+    <div class="footer-follow">
+      <p> FOLLOW </p>
+      <p> @<i>_pagesandpixels</i> </p>
+    </div>
+
+    <div class="footer-contact">
+      <p> CONTACT </p>
+      <p> pagesxpixels@gmail.com</p>
+    </div>
+
+  </div>
+
+</footer>
+<a href="#" class="back-to-top">Back to Top</a>
+</html>
