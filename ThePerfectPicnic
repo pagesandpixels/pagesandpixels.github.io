@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="webstyle.css">
+  <title>Pages and Pixels</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="logo"> 
+  <a href="index.html">
+  <img src="pages.png" 
+  width="150" 
+  height="auto"> 
+</a>
+</div> 
+
+<nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="one.html">Blog</a></li>
+    <li><a href="Reviews.html">Reviews</a></li>
+    <li><a href="eleven.html">About</a></li>
+  </ul>
+</nav>
+
+<body>
+  <div class="grid-container-article">
+
+    <div class="left">
+      <header>
+    <h1>The Perfect Picnics</h1>
+  </header>
+ 
+    
+<img src="picniccollage.jpg" alt="quote about starting">
+ <article>
+<p>What better way to spend a nice sunny day than with friends? With food, of course! We are firm believers that the right combination of friends and food can make a good day absolutely perfect.</p>
+
+<p>Here’s what we did:</p> 
+
+<p>Recently, we decided to follow through with our long awaited plan of having a picnic. Though these plans came together at the last minute, our day was close to perfection. The wind was <i>wind-ing<i>, the food was <i>food-ing<i>, the friends were <i>FRIEND-ING</i>. It was such a nice day and to be able to just take a moment to sit down and breathe and enjoy the moment, well, it was nothing short of perfection.</p> 
+
+<h2>Choosing the Location</h2>
+<p>You’ll likely want an open space like a park or a field that is far from the noise of busy city life. Some place where you can hear the birds and being near water is also ideal if you want to have a river or a beach picnic. Also keep in mind that you should have bathrooms nearby for everyone’s convenience.</p>
+
+<h2>Food and Supplies</h2>
+<p>It’s really fun to do a potluck style picnic where everyone brings something. The surprise of seeing what the others brought added an element of excitement. We ate apple pie, doughnuts and cookies, all of which were delicious. Don’t forget to get one person to bring all the necessary supplies such as utensils, napkins and/or extra water. You might even want to think about bringing some garbage bags for cleanup. Also bring a nice picnic blanket so that you can make the most of the park or area you're at and relax on the ground. For more ideas of what to bring, we’ve attached a free checklist we made that you could use to make sure you have all the essentials and to keep you sorted.</p> 
+
+<p>One of the most important things I need to tell you, do not, DO NOT I SAY, forget to bring SUNSCREEN. Though there was a nice chill in the air, the sun was out at full force and before we knew it, we had a nice sunburn coming along. It’s important for your health to make a habit of putting on sunscreen so you can protect your skin for years to come.</p>  
+
+<h3>What to do </h3>
+<p>It’s nice to have an activity to go along with the picnic. We played badminton but you could also bring a frisbee, a soccer ball, maybe even some paints and canvases to have an artistic day in the sun. We even played in the park and it made us feel like little kids again. Who needs therapy when you have parks? If you’re lucky maybe you’ll also spot some wildlife, like bunnies, squirrels or a family of geese and their goslings!</p> 
+
+<p>Overall, this is just a nice idea for people who struggle to find things to do with friends. You can settle in and talk with your friends and still have a good time that’s worth the effort of planning. It’s nice to have a day where you can fully soak it in and enjoy each other's company without distractions. With how hectic life can get, it’s just nice to have this day to relax among friends and all nature has to offer.</p> 
+
+<p>Warmly, Natalie and Minahil</p>
+
+  </article>
+    </div>
+
+    <div class="right">
+    <div>
+      <h2>Recent Articles</h2>
+      <ul>
+        <li><a href="ten.html">Summer 101</a></li>
+        <li><a href="nine.html">Birthday's Galore</a></li>
+        <li><a href="eight.html">My Love of Photography</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>About Author:</h2>
+      <img src="outfit.jpeg" alt="Author Picture"
+            width="160"
+            height="auto">
+      <p>Hi there! This blog by Natalie and Minahil is all about living life and capturing moments through words and pictures.</p>
+      <p> Memories are a beautiful part of life and sharing those memories makes life more joyous.</p>
+      <p> That's how Pages and Pixels was established</p>
+    </div>
+    <div>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get the latest updates and articles delivered straight to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    </div>
+
+  </div>
+</body>
+
+<hr>
+<footer>
+  <div class="grid-container-footer">
+    <div class="footer-logo"> 
+      <a href="index.html">
+        <img src="pages.png" 
+        width="150" 
+        height="auto"> 
+      </a>
+      <p>Capturing every moment, <br> one pixel at a time</p>
+    </div>
+
+    <div class="footer-nav">
+
+      <a href="index.html">
+        <p> Home </p>
+      </a>
+      <a href="one.html">
+        <p> Blog</p>
+      </a>
+      <a href="three.html">
+        <p> About </p>
+      </a>
+
+    </div>
+
+    <div class="footer-follow">
+      <p> FOLLOW </p>
+      <p> @<i>_pagesandpixels</i> </p>
+    </div>
+
+    <div class="footer-contact">
+      <p> CONTACT </p>
+      <p> pagesxpixels@gmail.com</p>
+    </div>
+
+  </div>
+
+</footer>
+<a href="#" class="back-to-top">Back to Top</a>
+</html>
