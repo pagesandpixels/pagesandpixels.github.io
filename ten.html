@@ -102,9 +102,13 @@
             margin: 0 auto; /* Add this line to center the form */
             text-align: left; /* Reset text-align to left for form elements */
         }
-
+ .mc-field-group input[type="text"],
+    .mc-field-group input[type="email"] {
+        width: calc(100% - 20px); /* Adjust the width as needed */
+        /* Subtract 20px from 100% to accommodate for padding */
         /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    }
     </style>
     <div id="mc_embed_signup">
         <form action="https://github.us17.list-manage.com/subscribe/post?u=002282bbf1d66869621da0a3d&amp;id=191c777566&amp;f_id=00c6c2e1f0"
@@ -112,7 +116,6 @@
             novalidate="">
             <div id="mc_embed_signup_scroll">
                 <h2>Subscribe to Our Newsletter</h2>
-                <p>Get the latest updates and articles delivered straight to your inbox.</p>
                 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                 <div class="mc-field-group"><label for="mce-FNAME">First Name <span class="asterisk">*</span></label><input
                         type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div>
